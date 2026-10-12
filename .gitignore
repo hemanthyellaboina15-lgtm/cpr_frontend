@@ -1,10 +1,28 @@
 # Node.js Dependencies
 node_modules/
 frontend/node_modules/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # Production Builds
 dist/
 frontend/dist/
@@ -42,3 +60,10 @@ backend/uploads/
 *.sln
 .DS_Store
 Thumbs.db
+=======
+# Editor & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+>>>>>>> ea0b6d870d29b4d8238263ca064c09dbb39fd65a

@@ -1,0 +1,44 @@
+# Node.js Dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production Builds
+dist/
+frontend/dist/
+build/
+
+# Java / Maven Builds
+target/
+backend/target/
+*.class
+*.jar
+*.war
+
+# Database files & Runtime Local Storage
+data/
+backend/data/
+*.db
+*.mv.db
+*.trace.db
+
+# Uploaded Files
+uploads/
+backend/uploads/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# IDE & OS Configuration
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
